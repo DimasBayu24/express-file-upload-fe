@@ -1,0 +1,45 @@
+
+
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+canvas {
+    background-color: #111D2C;
+  }
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap'); */
+
+  /* @font-face {
+    font-family: "Neue-Machina";
+    src: local("Neue-Machina"),
+      url("./assets/fonts/NeueMachina-Regular.otf") format("truetype");
+    font-weight: normal;
+  } */
+
+.Karla {
+    font-family: 'Karla' !important;
+}
+
+.colorWhite {
+    color: #FAFAFA;
+}
+
+.colorBlack {
+    color: #262626;
+}
+
+.textBig {
+    font-family: 'Neue-Machina';
+    color: #FAFAFA;
+    line-height: 1;
+    font-weight: 400;
+    /* font-size: 56px; */
+}
+
+.text {
+    font-family: 'Karla';
+    font-size: 20px;
+    line-height: 1;
+}
